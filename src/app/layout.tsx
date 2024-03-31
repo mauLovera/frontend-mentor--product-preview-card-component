@@ -20,9 +20,22 @@ export default function RootLayout({
       >
         {children}
         <footer className="mt-6 text-sm text-neutral-dark-grayish-blue">
-          Challenge by {" "} 
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="underline text-primary-light-cyan">Frontend Mentor</a>.
-          Coded by <a href="https://github.com/mauLovera" className="underline text-primary-light-cyan">Mauricio Lovera</a>.
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            className="text-primary-light-cyan underline"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://github.com/mauLovera"
+            className="text-primary-light-cyan underline"
+          >
+            Mauricio Lovera
+          </a>
+          .
         </footer>
       </body>
     </html>
